@@ -1,0 +1,59 @@
+body
+
+.center
+{
+margin:0 auto;
+
+width:1000px;
+}
+
+
+/* there is now a banner on all the pages and it is centered*/
+#banner
+{
+ position:relative;
+ background-image: url("banner.jpg");
+ background-repeat: no-repeat;
+ height:100px;
+ width:998px;
+ top:0px;
+margin: auto;
+}
+
+/* this is the gradient background on all the pages*/
+.orangegrad {
+		    height:100%
+			background:orange;
+			background:linear-gradient (top, #fb0, #F50);
+			background:-moz-linear-gradient(top, #fb0, #f50);
+			background:-webkit-linear-gradient(top, #fb0, #f50);
+			background:-o-linear-gradient(top, #fb0, #f50);
+			background:-ms-linear-gradient(top, #fb0, #f50); 
+			}
+
+/* this will make text size 3em in italics and white in serif font*/
+h1 { color:white; font-style: italic; font-size:3em; font-family:serif; }
+
+/* this will make text size 1 em in italics and black in serif font*/		
+/* this text was originally black, but i changed it to white for better visability*/	
+h2 { color:white; font-style: italic; font-size:1em; font-family:serif; }
+
+/* this will make text size 2 em in italics and white with serif front */
+h3{ color:white; font-style: italic; font-size:2em; font-family:serif; }
+		
+/* this is to make the menu bar stay at the top always, even if scrolling*/	
+/* this is was originally fixed, but i changed to a relative object and have it centered on the page*/	
+#object2 {
+position:relative; /* this will make the object stay on top */
+width:200px;
+height:100px;I
+top:100px;
+margin:auto;
+right: 400px;
+
+}
+/* this makes an ordered list in italics*/	
+/* I removed the ordered list because it didn't make much sense, but i know how to use it if i need it
+the site also looks nicer without it*/
+
+/*ol { font-style:italic; }	*/			

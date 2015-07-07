@@ -1,0 +1,84 @@
+<html>
+<head><title>Billing/Shipping</title>
+<!-- links page to the stylesheet.-->
+<link rel="stylesheet" href="sheetz.css" type text/css">
+</head>
+<body>
+
+<!-- brings in orange gradient from stylesheet.-->
+<div class='orangegrad'> 
+
+<!-- this is the menu header at the top of my page.-->
+<div id='object2'> 
+<table align="center"><tr><td>
+<a href="index.html"> <img src="1.jpg">   </a>
+</td><td>
+<a href="index.html"> <img src="2.jpg"></a>
+</td><td>
+<a href="menu.html"><img src="3.jpg"></a>
+</td><td>
+<a href="order_page.html"><img src="4.jpg"></a>
+</td><td>
+<a href="billing_shipping.html"><img src="5.jpg"></a>
+</td></tr></table>
+</div>
+
+<br><br><br><br><br><br>
+<!-- this is telling people to enter their billing info and is in a different font.-->
+<h3>Please enter your billing information:</h3> 
+<form id="CustomerBilling" method="POST"><!-- this form is for the customer billing.-->
+<h2><!-- a different font size and color is used here, called from style sheet.-->
+Billing Address:
+<li>
+	Name: <input type="text" name "customername" id="customername" size="50px">
+</li>	
+<li>
+	 Street Address: <input type="textarea" name="street" id="street" size="41px">
+</li>
+
+<li>
+    City: <input type="city" name="city" size="50px">
+</li>
+<li>
+	State: <input type="text" name "state" id="state" size="50px">
+</li>	
+<li>
+	 Zip: <input type="textarea" name="zipcode" id="zipcode" size="50px">
+</li>
+<li>
+	 Phone Number: <input type="textarea" name="phonenumber" id="phonenumber" size="50px">
+</li>
+<li>
+Text alert:<br>
+<input type="radio" name="textalert" value="Yes">Yes<br>
+<input type="radio" name="textalert" value="No">No<br>
+</li>
+<br><br>
+
+
+Credit Card Info:
+
+<li>
+	Name On Card: <input type="text" name "OS" id="OS" size="50px">
+</li>	
+<li>
+	Card Number: <input type="textarea" name="devicedescription" id="devicedescribe" size="41px">
+</li>
+
+<li>
+    Card Type: <input type="decimal" name="deviceprice" size="50px">
+</li>
+<li>
+	Expiration: <input type="text" name "OS" id="OS" size="50px">
+</li>	
+<li>
+	 CVV: <input type="textarea" name="devicedescription" id="devicedescribe" size="50px">
+</li>
+<br><br>
+</h2>
+<input type="submit" value="Submit"> <!-- this submits the form.-->
+</form>
+<br><br><br>
+ <p align="center">&copy 2013 Thomas Leskin</p>
+</body>
+</html>

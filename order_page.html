@@ -1,0 +1,228 @@
+<html>
+<head><title>Order Page</title>
+<link rel="stylesheet" href="sheetz.css" type text/css">
+<!-- links stylesheet.-->
+</head>
+<body>
+
+<div class='orangegrad'> <!-- call gradient from the stylesheet.-->
+
+
+<!-- i added a banner to the final project.-->
+<div id='banner'> 
+</div>
+
+<!-- This is the menu at the top of my page, a relative object and that info is called from the global stylesheet.-->
+<!-- I consolidated my menu down to three buttons for the final. I also made new ones that have a larger font, are larger themselves
+and are centered on the page under the banner.-->
+<center>
+<div id='object2'> 
+<table align="center"><tr><td>
+<a href="index.html"> <img src="1.jpg"></a>
+</td><td>
+<a href="menu.html"><img src="2.jpg"></a>
+</td><td>
+<a href="order_page.html"><img src="3.jpg"></a>
+</td><td>
+</td></tr></table>
+</div>
+</center>
+<br><br>
+
+<center>
+<h3>Please select items you would like to order:</h3> <!-- this is a different font and size, called from stylesheet.-->
+<form action="Sheetz.php" method="POST"> <!-- this form is for ordering.--> <!-- All this info is going to my Sheetz.php page-->
+<form value="Submit" method="POST">
+
+
+<h2><li><!-- all of this text is in a different front and size.-->
+ Hotdog: <br>
+<input type="radio" name="hdtype" value = "Plain Hot Dog" >Plain<br>
+<input type="radio" name="hdtype" value = "Hotdog w/ Ketchup" >With Ketchup<br> 
+<input type="radio" name="hdtype" value="Hotdog w/ Mustard" >With Mustard <br>
+</li>
+<p>----------------------------------------------------------------------------------------------------</p>
+<li>
+ Burger: <br>
+<input type="radio" name="burger" value= "Southwest Burger">Southwest Burger<br>
+<input type="radio" name="burger" value="Smokehouse Burger">Smokehouse Burger<br>
+<input type="radio" name="burger" value="Jr Burger">Jr Burger<br>
+<input type="radio" name="burger" value="Jr Cheeseburger">Jr Cheeseburger<br>
+</li>
+<p>----------------------------------------------------------------------------------------------------</p>
+<li>
+ Sub: <br>
+<input type="radio" name="typesub" value="Cheese sub">Cheese<br>
+<input type="radio" name="typesub" value="Turkey sub">Turkey<br>
+<input type="radio" name="typesub" value="Ham sub">Ham<br>
+<input type="radio" name="typesub" value="Meatball sub">Meatball<br>
+</li>
+<p>----------------------------------------------------------------------------------------------------</p>
+<li>
+ Wrap: <br>
+<input type="radio" name="wrap" value="Roasted Turkey Wrap">Roasted Turkey<br>
+<input type="radio" name="wrap" value="Roasted Turkey and Cheese Wrap" >Roasted Turkey and Cheese<br>
+<input type="radio" name="wrap" value="Chicken Salad Wrap" >Chicken Salad<br>
+<input type="radio" name="wrap" value="Veggie Wrap" >Veggie<br>
+</li>
+<p>----------------------------------------------------------------------------------------------------</p>
+<li>
+ Sandwich: <br>
+<input type="radio" name="sandwich" value="Ham Pretzel Melt" >Ham Pretzel Melt<br>
+<input type="radio" name="sandwich" value="Cordon Bleu Chicken Breast" >Cordon Bleu Chicken Breast<br> 
+</li>
+<p>----------------------------------------------------------------------------------------------------</p>
+<li>
+ Appetizers: <br>
+<input type="radio" name="app" value="Mac and Cheese" >Mac and Cheese<br>
+<input type="radio" name="app" value="French Fries" >French Fries<br> 
+<input type="radio" name="app" value="Mozzarella Sticks" >Mozzarella Sticks <br>
+</li></h2>
+
+<p>----------------------------------------------------------------------------------------------------</p>
+<br>
+
+<br>
+
+
+<!-- this is telling people to enter their billing info and is in a different font.-->
+
+
+
+<table border="7" cellspacing="5" cellpadding="1" width="30%" align="center" bgcolor="white">
+<h3>Please enter your billing information:</h3> 
+	<tr>
+		<td align="center">
+		<br>
+			First Name: <input type="textarea" name="fname" id="fname" size="30px">
+			<br><br>
+			Last Name: <input type="textarea" name="lname" id="lname" size="30px">
+			<br><br>
+			Phone Number: <input type="textarea" name="phone" id="phone" size="30px">
+			<br><br>		
+            Text alert:<input type="radio" name="textalert" value="Yes">Yes
+			<input type="radio" name="textalert" value="No">No<br>
+	        <br>
+			Street Address: <input type="textarea" name="sadd" id="sadd" size="50px">
+			<br><br>
+			Street Address (2): <input type="textarea" name="sadd2" id="sadd2" size="46px">
+			<br><br>
+			State:  
+				<select name="state">
+					<option value="AL">AL</option>
+					<option value="AK">AK</option>
+					<option value="AZ">AZ</option>
+					<option value="AR">AR</option>
+					<option value="CA">CA</option>
+					<option value="CO">CO</option>
+					<option value="CT">CT</option>
+					<option value="DE">DE</option>
+					<option value="DC">DC</option>
+					<option value="FL">FL</option>
+					<option value="GA">GA</option>
+					<option value="HI">HI</option>
+					<option value="ID">ID</option>
+					<option value="IL">IL</option>
+					<option value="IN">IN</option>
+					<option value="IA">LA</option>
+					<option value="KS">KS</option>
+					<option value="KY">KY</option>
+					<option value="ME">ME</option>
+					<option value="MD">MD</option>
+					<option value="MA">MA</option>
+					<option value="MI">MI</option>
+					<option value="MN">MN</option>
+					<option value="MS">MS</option>
+					<option value="MO">MO</option>
+					<option value="MT">MT</option>
+					<option value="NE">NE</option>
+					<option value="NV">NV</option>
+					<option value="NH">NH</option>
+					<option value="NJ">NJ</option>
+					<option value="NM">NM</option>
+					<option value="NY">NY</option>
+					<option value="NC">NC</option>
+					<option value="ND">ND</option>
+					<option value="OH">OH</option>
+					<option value="OK">OK</option>
+					<option value="OR">OR</option>
+					<option value="PA">PA</option>
+					<option value="RI">RI</option>
+					<option value="SC">SC</option>
+					<option value="SD">SD</option>
+					<option value="TN">TN</option>
+					<option value="TX">TX</option>
+					<option value="UT">UT</option>
+					<option value="VT">VT</option>
+					<option value="VA">VA</option>
+					<option value="WA">WA</option>
+					<option value="WV">WV</option>
+					<option value="WI">WI</option>
+					<option value="WY">WY</option>
+				</select>
+			&nbsp; &nbsp; &nbsp;
+			Zip Code: <input type="textarea" name="zip" id="zip" size="10px">
+			<br><br>
+			<hr border="1" width="80%">
+			<br>
+			Credit Card:
+				<select name="makeitrain">
+					<option value="Visa">Visa</option>
+					<option value="American">American Express</option>
+					<option value="Discover">Discover</option>
+					<option value="Master">MasterCard</option>
+				</select>
+			<br><br>
+				Credit Card Number: 
+					<input type="textarea" name="cnum" id="cnum" size="30px">
+			<br><br>
+				Exp. Date:
+					<select name="month">
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+					&nbsp;
+					<select name="year">
+						<option value="13">2013</option>
+						<option value="14">2014</option>
+						<option value="15">2015</option>
+						<option value="16">2016</option>
+						<option value="17">2017</option>
+						<option value="18">2018</option>
+						<option value="19">2019</option>
+						<option value="20">2020</option>
+					</select>
+			<br><br>
+				Security Number:
+					<input type="text" name="snum" id="snum" size="5px">
+			<br><br>
+		<form>
+			<br>
+			
+		</form> 
+		</td>
+	</tr>
+</table>
+
+<br>
+
+<input type="submit" value="Submit"> <!-- this submits the form.-->
+</form>
+
+</center>
+<br><br><br>
+
+
+</body>
+ <p align="center">&copy 2013 Thomas Leskin</p>
+</html>
